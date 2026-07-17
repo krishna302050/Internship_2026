@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:Segoe UI,sans-serif;
+    background:linear-gradient(135deg,#1d4e89,#6b8dd6);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.quiz-container{
+
+    width:550px;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 15px 40px rgba(0,0,0,.3);
+
+}
+
+h1{
+
+    text-align:center;
+    margin-bottom:25px;
+    color:#1d4e89;
+
+}
+
+#question{
+
+    margin-bottom:20px;
+    color:#333;
+    min-height:60px;
+
+}
+
+#answers button{
+
+    width:100%;
+    padding:15px;
+    margin:10px 0;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    background:#f0f0f0;
+    font-size:16px;
+    transition:.3s;
+
+}
+
+#answers button:hover{
+
+    background:#dbeafe;
+
+}
+
+.correct{
+
+    background:#22c55e!important;
+    color:white;
+
+}
+
+.wrong{
+
+    background:#ef4444!important;
+    color:white;
+
+}
+
+#feedback{
+
+    text-align:center;
+    font-size:18px;
+    font-weight:bold;
+    margin:20px 0;
+    min-height:30px;
+
+}
+
+#next-btn{
+
+    width:100%;
+    padding:15px;
+    margin-top:10px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    background:#2563eb;
+    color:white;
+    font-size:18px;
+    transition:.3s;
+
+}
+
+#next-btn:hover{
+
+    background:#1d4ed8;
+
+}
+
+/* Final Screen */
+
+.final{
+
+    text-align:center;
+
+}
+
+.circle{
+
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    margin:20px auto;
+    background:linear-gradient(135deg,#2563eb,#06b6d4);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    box-shadow:0 10px 30px rgba(0,0,0,.3);
+
+}
+
+.circle h1{
+
+    font-size:60px;
+
+}
+
+.circle p{
+
+    font-size:20px;
+
+}
+
+.final h2{
+
+    margin:20px 0;
+    color:#333;
+
+}
+
+.final button{
+
+    padding:15px 35px;
+    border:none;
+    border-radius:30px;
+    background:#16a34a;
+    color:white;
+    cursor:pointer;
+    font-size:18px;
+
+}
+
+.final button:hover{
+
+    background:#15803d;
+
+}
